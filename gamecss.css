@@ -1,0 +1,53 @@
+.main{
+    width: 600%;
+    height: 400px;
+    background-color: white;
+    margin-top: 100px;
+}
+#move{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+}
+button{
+    width: 69px;
+    height: 33px;
+    margin-left: 618px;
+    background-color: cornsilk;
+    margin-top: 25px;
+}
+.block{
+    width: 30px;
+    height: 150px;
+    background-color: black;
+    margin-left: 263px;
+    margin-top: 0px;
+    position: absolute;
+}
+.bottomblock{
+    position: absolute;
+    width: 30px;
+    height: 150px;
+    background-color: black;
+    margin-top: 250px;
+}
+
+#body{
+    background-color: blueviolet;
+    overflow-x: auto;
+}
+#b1{
+    margin-left: 580px;
+}
+#b2{
+    margin-left: 1250px;
+}
+#foradjust{
+    margin-left: 601px;
+}
+input{
+    width: 50px;
+    height: 25px;
+    position: fixed;
+}

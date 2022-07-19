@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./gamecss.css">
+    <title>BIRD</title>
+</head>
+<body id="body">
+    <audio controls id="audio" hidden>
+        <source src="./mixkit-player-jumping-in-a-video-game-2043.wav" type="audio/ogg">
+        </audio>
+        <audio controls id="gameover" hidden>
+            <source src="./gameover.wav" type="audio/ogg">
+            </audio>
+        <input type="text" id="score">       
+    <div class="main" id="main">
+        <img src="./bird.png" id="move"></img>
+        <div class="child">
+            <div class="block" id="foradjust" ></div>
+        <div class="block"></div>
+        <div class="bottomblock" id="b1"></div>
+        
+    </div>
+    </div>
+    <button type="button" onclick="startMove()">START</button>
+    <button type="button" onclick="gameover()">ADD</button>
+<script src="./gamejs.js"></script>    
+</body>
+</html>
